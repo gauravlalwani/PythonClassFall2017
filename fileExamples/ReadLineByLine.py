@@ -1,5 +1,7 @@
+import os
+
 # first, open the file
-f = open('TestData/MultiLineData.txt', 'r')
+f = open(os.path.join('TestData','MultiLineData.txt'), 'r')
 # initializing lists
 trial = []
 onsetTime = []
